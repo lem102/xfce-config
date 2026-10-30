@@ -1,3 +1,8 @@
+# install system packages
+bootstrap:
+    sudo pacman -S xfce4 xfce4-goodies
+    sudo pacman -U $(pwd)/packages/*
+
 # overwrite the system configuration with the repository configuration
 apply:
     cp $(pwd)/xfce4-keyboard-shortcuts.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml
