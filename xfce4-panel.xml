@@ -64,7 +64,7 @@
       <property name="show-button-title" type="bool" value="true"/>
       <property name="button-title" type="string" value="Start"/>
       <property name="profile-shape" type="int" value="1"/>
-      <property name="default-category" type="int" value="1"/>
+      <property name="default-category" type="int" value="0"/>
       <property name="launcher-icon-size" type="int" value="2"/>
       <property name="position-profile-alternate" type="bool" value="true"/>
       <property name="position-search-alternate" type="bool" value="true"/>
@@ -78,11 +78,6 @@
       <property name="show-command-restart" type="bool" value="true"/>
       <property name="view-mode" type="int" value="1"/>
       <property name="recent" type="array">
-        <value type="string" value="firefox.desktop"/>
-        <value type="string" value="emacs.desktop"/>
-        <value type="string" value="xfce4-terminal.desktop"/>
-        <value type="string" value="xfce4-accessibility-settings.desktop"/>
-        <value type="string" value="lightdm-gtk-greeter-settings.desktop"/>
       </property>
       <property name="show-command-suspend" type="bool" value="true"/>
       <property name="show-command-hibernate" type="bool" value="true"/>
@@ -93,6 +88,7 @@
         <value type="string" value="xfce4-terminal-emulator.desktop"/>
         <value type="string" value="emacs.desktop"/>
       </property>
+      <property name="recent-items-max" type="int" value="0"/>
     </property>
     <property name="plugin-1" type="string" value="systray">
     </property>
