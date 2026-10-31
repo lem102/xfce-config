@@ -72,16 +72,16 @@
       <property name="position-commands-alternate" type="bool" value="false"/>
       <property name="position-categories-alternate" type="bool" value="false"/>
       <property name="position-categories-horizontal" type="bool" value="false"/>
-      <property name="show-command-lockscreen" type="bool" value="true"/>
-      <property name="show-command-shutdown" type="bool" value="true"/>
-      <property name="show-command-logout" type="bool" value="false"/>
-      <property name="show-command-logoutuser" type="bool" value="true"/>
-      <property name="show-command-restart" type="bool" value="true"/>
+      <property name="show-command-lockscreen" type="bool" value="false"/>
+      <property name="show-command-shutdown" type="bool" value="false"/>
+      <property name="show-command-logout" type="bool" value="true"/>
+      <property name="show-command-logoutuser" type="bool" value="false"/>
+      <property name="show-command-restart" type="bool" value="false"/>
       <property name="view-mode" type="int" value="1"/>
       <property name="recent" type="array">
       </property>
-      <property name="show-command-suspend" type="bool" value="true"/>
-      <property name="show-command-hibernate" type="bool" value="true"/>
+      <property name="show-command-suspend" type="bool" value="false"/>
+      <property name="show-command-hibernate" type="bool" value="false"/>
       <property name="favorites" type="array">
         <value type="string" value="xfce4-web-browser.desktop"/>
         <value type="string" value="xfce4-mail-reader.desktop"/>
@@ -90,6 +90,7 @@
         <value type="string" value="emacs.desktop"/>
       </property>
       <property name="recent-items-max" type="int" value="0"/>
+      <property name="show-command-settings" type="bool" value="true"/>
     </property>
     <property name="plugin-1" type="string" value="systray">
       <property name="known-legacy-items" type="array">
