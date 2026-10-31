@@ -20,6 +20,7 @@
         <value type="int" value="1"/>
         <value type="int" value="6"/>
         <value type="int" value="3"/>
+        <value type="int" value="7"/>
       </property>
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="enable-struts" type="bool" value="true"/>
@@ -96,5 +97,6 @@
       <property name="known-items" type="array">
       </property>
     </property>
+    <property name="plugin-7" type="string" value="battery"/>
   </property>
 </channel>
